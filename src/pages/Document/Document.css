@@ -1,0 +1,89 @@
+h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+.files-container{
+    border:1px solid #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 8rem;
+    margin-bottom: 50px;
+    margin-left: 4.8rem;
+    border-radius: 10px;
+    width: 90%;
+}
+  
+.file-card{
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 1 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+  
+.file-icon{
+    width: 80px;
+    margin-bottom: 20px;
+}
+  
+.file-card p{
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+  
+.action1-buttons{
+    position: relative;
+    margin-left: 73rem;
+    top: 40px;
+    display: flex;
+    gap: 10px;
+
+}/*คู่*/
+  
+.approve-btn,
+.decline-btn{
+    
+    border: none;    
+}
+  
+.approve-btn{
+    background-color: #4caf50;
+    width: 80px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+  
+.approve-btn:hover{
+    background-color: #45a049;
+}
+  
+.decline-btn{
+    background-color: #6b6b6b;
+    width: 80px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+  
+.decline-btn:hover{
+    background-color: #4d4d4d;
+    
+}
+.ex-btn{
+    background-color: #c40700;
+    width: 80px;
+    color: #fff;
+    border: 1px solid brown;
+    padding: 5px 10px ;
+    border-radius: 5px;
+}
+  

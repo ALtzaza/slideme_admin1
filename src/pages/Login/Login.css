@@ -1,0 +1,47 @@
+.Bglogin-container{
+    
+    background-image: url('./bg.jpg');
+   background-position: center;
+   padding-top: 3rem;
+   padding-left: 9rem;
+    height:100vh;
+  
+}
+
+
+.login-container{
+    text-align: center;
+    width: 850px;
+    
+    border : 1px solid rgb(0, 0, 0);
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    height: 580px;
+    background-color: rgb(255, 255, 255);
+   
+    margin-left: 40rem;
+    padding: 5rem 4rem 10rem 4rem; 
+    width: 530px;
+    
+}
+
+.text-login{
+    color: rgb(0, 82, 11);
+ 
+    
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.text-user{ 
+    margin-left: -5.5rem;
+}
+.text-pass{
+    margin-left: -5.5rem;
+}
+.input-container{
+    margin-top: 4rem;
+}
+.btnLogin{
+    margin-top: 5.5rem;
+}

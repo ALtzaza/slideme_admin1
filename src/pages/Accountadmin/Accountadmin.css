@@ -1,0 +1,94 @@
+
+  h2 {
+    text-align: left;
+    color: #4a4a4a;
+  }
+  
+  .form-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#f9f9f9;
+    padding: 20px;
+    padding-top: 1rem;
+    width: 86.9%;
+    border-radius: 8px;
+    margin-top: 5rem;
+    margin-left: 6.6rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .manage-account{
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fdfb; /* ปรับสีพื้นหลังให้สว่างขึ้น */
+    padding: 20px 30px; /* เพิ่มความสมดุลด้านข้าง */
+    border-radius: 12px; /* มุมมนเพิ่มขึ้น */
+    max-width: 1300px; /* เพิ่มขนาดความกว้าง */
+    height: 80%;
+    margin: 30px auto;
+    margin-left: 6.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* เงาที่ชัดเจนขึ้น */
+  }
+  .input-group1 {
+    margin-top: 6rem;
+   margin-right: 10px;
+    margin-left: 90px;
+   
+  }
+  .input-group2 {
+    margin-top: 6rem;
+    margin-right: 10px;
+    margin-left: 90px;
+    
+   }
+   .input-group3 {
+
+    margin-right: 10px;
+    margin-left: 90px;
+    margin-top: 4rem;
+   }
+   .input-group4 {
+    margin-top: 4rem;
+    margin-right: 10px;
+    margin-left: 90px;
+   }
+   
+ 
+  
+  .input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+  }
+  
+  .save-button1 {
+    width:10%;
+    background-color: #56c26f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5rem;
+    font-size: 16px;
+    margin-left:1rem;
+  }
+  .cancel-button1 {
+    width:10%;
+    background-color: #a3a3a3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5rem;
+    font-size: 16px;
+    margin-left:50em;
+  }
+  .btnAccount{
+    display: flex;
+    margin-left: 20rem;
+  }
+ 
+  
+  
+  

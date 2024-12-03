@@ -1,0 +1,125 @@
+.manage-review {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fdfb; /* ปรับสีพื้นหลังให้สว่างขึ้น */
+    padding: 20px 30px; /* เพิ่มความสมดุลด้านข้าง */
+    border-radius: 12px; /* มุมมนเพิ่มขึ้น */
+    max-width: 1300px; /* เพิ่มขนาดความกว้าง */
+    height: 80%;
+    margin: 30px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* เงาที่ชัดเจนขึ้น */
+}
+
+.manage-review h1 {
+    text-align: center;
+    color: #388e3c; /* สีเขียวที่เข้มขึ้นเล็กน้อย */
+    margin-bottom: 30px; /* เพิ่มระยะห่างด้านล่าง */
+    font-size: 1.8rem; /* ปรับขนาดข้อความ */
+}
+
+.table-container {
+    max-height: 450px; /* เพิ่มความสูงพื้นที่แสดงตาราง */
+    overflow: auto; /* เลื่อนทั้งสองแกน */
+    border: 1px solid #e0e0e0; /* เปลี่ยนสีเส้นขอบ */
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px; /* เพิ่มระยะห่างจากส่วนบน */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 14px 16px; /* เพิ่ม Padding ให้ใหญ่ขึ้น */
+    text-align: left;
+    border-bottom: 1px solid #ececec; /* สีเส้นขอบที่จางลง */
+    font-size: 0.95rem; /* ขนาดตัวหนังสือที่เล็กน้อย */
+    white-space: nowrap; /* ป้องกันข้อความล้น */
+}
+
+table th {
+    background-color: #c8e6c9; /* สีเขียวอ่อน */
+    color: #2e7d32;
+    position: sticky; /* ทำให้หัวตารางติดเมื่อ Scroll */
+    top: 0;
+    z-index: 2;
+    text-transform: uppercase; /* เพิ่มข้อความตัวพิมพ์ใหญ่ */
+    letter-spacing: 0.5px;
+}
+
+table tr:hover {
+    background-color: #f9f9f9; /* สีไฮไลต์จางลง */
+    cursor: pointer; /* เปลี่ยนเป็นมือเมื่อ Hover */
+}
+
+table td:last-child {
+    font-size: 18px;
+    color: #ffa500;
+    text-align: center;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.search-bar input {
+    padding: 12px 15px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.3s, border-color 0.3s; /* เพิ่ม Animation */
+}
+
+.search-bar input:focus {
+    outline: none;
+    border-color: #388e3c; /* เปลี่ยนสี Focus */
+    box-shadow: 0 0 8px rgba(56, 142, 60, 0.5); /* เพิ่มเงาสีเขียว */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* ระยะห่างระหว่างปุ่ม */
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* เพิ่ม Animation */
+}
+
+.pagination button:hover {
+    background-color: #388e3c;
+    color: white;
+}
+
+.pagination button:disabled {
+    background-color: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.sort-options {
+    display: flex;
+    align-items: right;
+    gap: 15px; /* ระยะห่างระหว่างปุ่ม */
+    margin-top: 20px;
+    
+}
+.select{
+    border:none;
+    background-color: #d1d4d2;
+    height: 20px;
+    border-radius: 5px;
+    color: #5a5a5a;
+}

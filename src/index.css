@@ -1,0 +1,44 @@
+h1{
+    font-size: 2rem;
+}
+td{
+    font-size: 1rem;
+}
+.pages-container{
+    background-color: rgb(255, 255, 255);
+   
+    
+    margin-left: 14.6rem;
+    
+    width:1200;
+    height: 100%;    
+}
+.hader-container{
+    flex-shrink: 0; 
+    display: flex;
+    justify-content: space-between; /* จัดให้ dashboard-title อยู่ซ้าย และ user-icon อยู่ขวา */
+    align-items: center;
+    background-color: #85d380;
+    height: 60px;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-top: 0.3rem;
+    
+    
+    
+}
+.hader-text{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    flex-shrink: 0; 
+    font-family:  Arial, Helvetica, Sans-Serif;
+    font-weight: bold;
+}
+.user-icon {
+    font-size: 2em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #494545;
+    flex-shrink: 0; 
+}
+

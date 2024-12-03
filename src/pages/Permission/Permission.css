@@ -1,0 +1,32 @@
+
+
+
+
+.permission-container{
+    max-height: 450px; /* เพิ่มความสูงพื้นที่แสดงตาราง */
+    overflow: auto; /* เลื่อนทั้งสองแกน */
+    border: 1px solid #e0e0e0; /* เปลี่ยนสีเส้นขอบ */
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px; /* เพิ่มระยะห่างจากส่วนบน */
+   height: auto;
+}
+.tdp1{
+    text-align: center;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    
+}
+
+.btnP{
+    width:5%;
+    background-color: #56c26f;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}

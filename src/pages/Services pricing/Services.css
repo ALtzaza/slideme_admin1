@@ -1,0 +1,107 @@
+
+
+
+.services-table {
+    border-radius: 5px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    
+}
+
+.services-table th, .services-table td {
+    /* border-radius: 50px; */
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.services-table th {
+    background-color: #8bca8b;
+    font-weight: bold;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    
+}
+
+.service-label {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.price-input {
+    
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    /* max-width: 150px; */
+    background-color: #f9f9f9;
+}
+
+.price-input:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.action1-buttons1 {
+    
+    margin-top: 40px;
+  display: flex;
+    gap: 10px;
+    margin-left: 81rem;
+   
+    
+    
+}
+
+
+
+.save1-button1 {
+    background-color: #56c26f;
+    width: 80px;
+    border-radius: 5px;
+   color: #f9f9f9;
+   height: 40px;
+   border:none;
+    
+}
+
+.cancel1-button1 {
+    background-color: #999;
+    width: 80px;
+    border-radius: 5px;
+    color: #f9f9f9;
+    border:none;
+    
+}
+
+.save1-button1:hover {
+    background-color: #45a049;
+}
+
+.cancel1-button1:hover {
+    background-color: #888;
+}

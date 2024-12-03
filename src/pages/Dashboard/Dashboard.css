@@ -1,0 +1,248 @@
+/* โครงสร้างหลักของ Dashboard */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* สไตล์ของแถบเมนูด้านข้าง */
+.sidebar {
+    width: 50px;
+    background-color: #2E7D32;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.menu a:hover {
+    background-color: #1B5E20;
+}
+
+/* สไตล์ของเนื้อหาหลัก */
+.main-content {
+    flex: 1;
+    padding-left: 8px;
+    margin-top: 2rem;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+}
+
+
+
+
+
+.dashboard-title {
+    font-size: 2em;
+    color: #494545;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/* กล่องสถิติ */
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px; /* เพิ่มระยะห่างระหว่างกล่อง */
+    margin-bottom: 20px;
+}
+
+
+.info-box1 {
+    position: relative;
+    margin-top: 5rem;
+    flex: 1 1 calc(1% - 20px);
+    background-color: #3256b8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 0.6;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.service {
+    position: absolute;
+    top: 20px;      /* ปรับตำแหน่งให้อยู่ภายใน */
+  left: 200px;
+     /* ระยะห่างจากข้อความ */
+    width: 95px; /* ปรับขนาดรูปภาพ */
+    height: auto; /* รักษาสัดส่วน */
+}
+
+/* เพิ่มสีของกล่องข้อมูลอื่น */
+.info-box2 {
+    margin-top: 5rem;
+    flex: 1 1 calc(1% - 20px);
+    background-color: #4db861;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 0.6;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 180px;
+}
+.order {
+    position: absolute;
+    top: 210px; /* ขยับขึ้นไปที่ตำแหน่งบนสุดของกล่อง */
+    left: 860px; /* ระยะห่างจากข้อความ */
+    width: 95px; /* ปรับขนาดรูปภาพ */
+    height: auto; /* รักษาสัดส่วน */
+}
+
+.info-box3 {
+    margin-top: 5rem;
+    flex: 1 1 calc(1% - 20px); /* กำหนดพื้นที่ของกล่อง */
+    background-color: #e7a53a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    line-height: 0.6;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 170px;
+    text-align: left;
+}
+
+.car {
+    position: absolute;
+    top: 220px; /* ขยับขึ้นไปที่ตำแหน่งบนสุดของกล่อง */
+    left: 1180px; /* ระยะห่างจากข้อความ */
+    width: 150px; /* ปรับขนาดรูปภาพ */
+    height: auto; /* รักษาสัดส่วน */
+
+}
+
+.info-box4 {
+    margin-top: 5rem;
+    flex: 1 1 calc(1% - 20px);
+    background-color: #3ebee6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 0.6;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 170px;
+}
+
+.user {
+    position: absolute;
+    top: 210px; /* ขยับขึ้นไปที่ตำแหน่งบนสุดของกล่อง */
+    left: 1600px; /* ระยะห่างจากข้อความ */
+    width: 100px; /* ปรับขนาดรูปภาพ */
+    height: auto; /* รักษาสัดส่วน */
+}
+
+/* แผนภูมิและข่าวสาร */
+.chart-section {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* เพิ่มระยะห่างระหว่างแผนภูมิและข่าวสาร */
+}
+
+.chart, .news-feed {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    height: 300px;
+    
+}
+
+.news-feed {
+    font-size: 1.2em;
+    line-height: 1.8;
+    height: 300px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* Bar Chart (แบบกำหนดเอง) */
+.bar-chart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px; /* กำหนดความสูงของกราฟ */
+    background-color: #e8e8e8;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.bar {
+    width: 10%; /* ลดความกว้างของแท่งกราฟ */
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.bar:nth-child(1) {
+    background-color: #25272c;
+}
+
+.bar:nth-child(2) {
+    background-color: #2aae3e;
+    
+}
+
+/* สไตล์ของ Chart.js */
+.chartjs-render-monitor {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.chart-title {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chart, .news-feed {
+    flex: 1 1 calc(48% - 10px); /* จัดขนาดให้แบ่งเท่า ๆ กัน */
+    margin: 25px 11px; /* เพิ่ม margin ด้านบน */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

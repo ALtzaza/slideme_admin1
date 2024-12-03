@@ -1,0 +1,128 @@
+
+  /* กล่องสำหรับแผนที่และข้อมูล */
+  .dashboard-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 90px; /* ขยับขึ้นไปที่ตำแหน่งบนสุดของกล่อง */
+    left: 230px; /* ระยะห่างจากข้อความ */
+    width:80%; /* ปรับขนาดรูปภาพ */
+
+    height: 100%; /* รักษาสัดส่วน */
+    margin-left: 4.5rem;
+  }
+  .details-text{
+    font-size: 1.1rem;
+   
+    
+  }
+  .action1-buttons{
+    margin-top: 1rem;
+    
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* แผนที่ */
+  .dashboard-map {
+    margin-bottom: 20px;
+    
+  }
+  
+  /* ส่วนหัว */
+  .dashboard-details-header {
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* รายละเอียด */
+  .dashboard-details {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(97, 93, 93);
+    text-align: left;
+    
+  }
+  
+  .dashboard-details p {
+    margin: 5px 0;
+  }
+  
+  /* กลุ่มปุ่ม */
+  .dashboard-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* ปุ่มยกเลิก */
+  .dashboard-cancel-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-cancel-btn:hover {
+    background-color: #e60000;
+  }
+  
+  /* ปุ่มออก */
+  .dashboard-exit-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .dashboard-exit-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  .dashboard-actions {
+    display: flex; /* ใช้ Flexbox */
+    justify-content: flex-start; /* จัดปุ่มให้อยู่ทางขวา */
+    gap: 10px; /* เว้นระยะห่างระหว่างปุ่ม */
+    margin-top: 20px;
+  }
+/* ปุ่มสถานะ */
+.dashboard-status-btn {
+    background-color: #28a745; /* สีเขียว */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 380px; /* ขยับขึ้นไปที่ตำแหน่งบนสุดของกล่อง */
+    left: 600px; /* ระยะห่างจากข้อความ */
+
+  }
+  
+  .dashboard-status-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* ป้ายสถานะ */
+.dashboard-status-label {
+    font-size: 14px; /* ขนาดฟอนต์ */
+    margin-right: 10px; /* เว้นระยะห่างระหว่างคำกับปุ่ม */
+    align-self: center; /* จัดแนวให้อยู่ตรงกลางแนวแกน */
+    color: #333; /* สีข้อความ */
+    position: absolute;
+    top: 385px; /* ขยับขึ้นไปที่ตำแหน่งบนสุดของกล่อง */
+    left: 540px; /* ระยะห่างจากข้อความ */
+  }
+  

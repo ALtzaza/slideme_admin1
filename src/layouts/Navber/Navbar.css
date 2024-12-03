@@ -1,0 +1,80 @@
+.navbar-container {
+    display: flex;
+    flex-direction: column; /* เรียงในแนวตั้ง */
+    align-items: flex-start; /* ชิดซ้าย */
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-top: 1rem;
+    box-shadow: 0px 0px 10px 0px rgb(154, 158, 154);
+    overflow-y: auto; /* เพิ่มแถบเลื่อนแนวตั้งเมื่อเนื้อหาเกิน */
+    height: 100vh; /* ความสูงเต็มจอ */
+    width: 240px;
+}
+/* ความกว้างของ scrollbar */
+.navbar-container::-webkit-scrollbar {
+    width: 7px; /* ความกว้างแถบเลื่อน */
+  }
+  
+  /* สีของรางแถบเลื่อน (track) */
+  .navbar-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* สีพื้นหลังราง */
+    border-radius: 10px;
+  }
+  
+  /* สีของแถบเลื่อน (thumb) */
+  .navbar-container::-webkit-scrollbar-thumb {
+    background-color: #7ccc8f; /* สีของแถบ */
+    border-radius: 10px;
+  }
+  
+  /* เมื่อโฮเวอร์แถบเลื่อน */
+  .navbar-container::-webkit-scrollbar-thumb:hover {
+    background: #86cc89;
+  }
+.logoN{
+  
+  
+    display: block; /* ช่วยจัดรูปให้อยู่ใน block */
+    margin: 0 auto; /* จัดให้อยู่ตรงกลาง (ถ้าอยู่ใน container) */
+}
+.btnN{
+    
+    border : 1px solid rgb(255, 255, 255);
+    margin-top: 1rem;
+    text-align: left;
+    background-color: #ffffff;
+    width:230px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+   
+
+}
+.btnL{
+    
+    border : 1px solid rgb(82, 189, 91);
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width:230px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 1px;
+    
+   
+
+}
+.navbar-container button:hover {
+    background-color: #69bd61; /* สีเมื่อเอาเมาส์ไปชี้ */
+    color: #000000;
+}
+.btnN.active {
+    background-color: #69bd61; /* สีเมื่อปุ่มถูกเลือก */
+    color: #000000;
+   
+}

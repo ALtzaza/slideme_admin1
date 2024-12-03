@@ -1,0 +1,51 @@
+.driver-container{
+    max-height: 550px; /* เพิ่มความสูงพื้นที่แสดงตาราง */
+    overflow: auto; /* เลื่อนทั้งสองแกน */;
+    
+    border: 1px solid #e0e0e0; /* เปลี่ยนสีเส้นขอบ */
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px; /* เพิ่มระยะห่างจากส่วนบน */
+   height: auto;
+}
+  .manage-driver{
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fdfb; /* ปรับสีพื้นหลังให้สว่างขึ้น */
+    padding: 20px 30px; /* เพิ่มความสมดุลด้านข้าง */
+    border-radius: 12px; /* มุมมนเพิ่มขึ้น */
+    max-width: 1481px; /* เพิ่มขนาดความกว้าง */
+    height: 80%;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* เงาที่ชัดเจนขึ้น */
+    margin-left: 20px;
+    
+
+}
+  
+.driver-table{
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 1.5rem;
+}
+  
+.driver-table th,
+.driver-table td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+  
+.driver-table th{
+    background-color: #000000;
+    color: #ffffff;
+}
+  
+.check-btn{
+    background-color: #5A6A60;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
